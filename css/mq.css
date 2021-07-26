@@ -1,0 +1,145 @@
+/*
+𝐌𝐞𝐝𝐢𝐚 𝐐𝐮𝐞𝐫𝐢𝐞𝐬
+*/
+
+/* ============= */
+/* =========== HEADER =========== */
+/* ============= */
+
+@media screen and (max-width: 1199px){
+    .h_banner {width: 85%;}
+}
+
+@media screen and (max-width: 991px){
+    .h_banner {width: 96%;}
+    .h_banner h1 {font-size: 3.4rem;}
+    .h_banner h2 {font-size: 1.3rem;}
+}
+
+@media screen and (max-width: 599px){
+    .h_banner {width: 98%;}
+    .h_banner h1 {font-size: 3rem;}
+    .h_banner h2 {font-size: 1.2rem; width: 98%;}
+}
+
+@media screen and (max-width: 414px){
+    .h_banner h1 {font-size: 2.4rem;}
+    .h_banner h2 {font-size: 1.114rem;}
+}
+
+
+
+
+/* ============= */
+/* =========== WHAT WE DO =========== */
+/* ============= */
+
+@media screen and (max-width: 1020px){
+    .stone_angel_one {right: -52%;}
+    .fog {right: -33%;}
+}
+
+@media screen and (max-width: 991px){
+    .section_txt_holder {width: 96%;}
+    .two_services_holder {width: 100%}
+    .servicebox_txt p {font-size: 1rem;}
+}
+
+@media screen and (max-width: 767px){
+    .servicebox {margin-bottom: 36px;}
+    .stone_angel_one {right: -35%;}
+    .fog {right: -12%;}
+}
+
+@media screen and (max-width: 540px){
+    .stone_angel_one {right: -12%;}
+    .fog {right: 25%;}
+}
+
+@media screen and (max-width: 480px){
+    .stone_angel_one {bottom: -50px;}
+    .fog {bottom: -50px;}
+}
+
+@media screen and (max-width: 450px){
+    .stone_angel_one {bottom: -150px;}
+    .fog {bottom: -150px;}
+}
+
+@media screen and (max-width: 404px){
+    .servicebox_txt p {min-height: 250px;}
+}
+
+@media screen and (max-width: 355px){
+    .stone_angel_one {bottom: -250px;}
+    .fog {bottom: -250px;}
+}
+
+
+
+
+
+/* ============= */
+/* =========== STATS =========== */
+/* ============= */
+
+@media screen and (max-width: 1199px){
+    .statbox {width: 100%;}
+}
+
+@media screen and (max-width: 991px){
+    .stat_item h6 {height: 60px;}
+}
+
+@media screen and (max-width: 767px){
+    .statbox {display: inline-block; text-align: center;}
+    .stat_item_outermost {float: left;}
+}
+
+@media screen and (max-width: 575px){
+    .statbox {display: grid; min-height: 880px; height: auto;}
+    .stats_area {min-height: 1110px;}
+
+}
+
+
+
+
+
+/* ============= */
+/* =========== TESTIMONIALS =========== */
+/* ============= */
+
+@media screen and (max-width: 991px){
+    .t_slide {width: 94% !important;}
+}
+
+@media screen and (max-width: 767px){
+    .t_slide {width: 100% !important;}
+}
+
+@media screen and (max-width: 575px){
+    article.testimonials_txt p {font-size: 1rem;}
+}
+
+
+
+
+
+/* ============= */
+/* =========== FOOTER =========== */
+/* ============= */
+
+@media screen and (max-width: 767px){
+    .footer_nav {padding-left: 62px;}
+}
+
+@media screen and (max-width: 380px){
+    .footer_nav {padding-left: 62px;}
+    .footer_notes_holder small {font-size: 0.9rem;}
+}
+
+
+
+
+
