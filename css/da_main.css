@@ -704,6 +704,8 @@ img.footerlogo {
 }
 
 .footer_nav {
+    position: relative;
+    z-index: 10;
     padding-left: 50px;
 }
 
@@ -723,7 +725,9 @@ hr.footer_separ {
 }
 
 ul.footer_socials {
-   display: table;
+    position: relative;
+    z-index: 10;
+    display: table;
     margin: 0 auto;
 }
 
