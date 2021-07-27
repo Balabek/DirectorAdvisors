@@ -709,6 +709,10 @@ img.footerlogo {
     padding-left: 50px;
 }
 
+.footer_nav li {
+    float: left;
+}
+
 hr.footer_separ {
     height: 1px;
     margin-top: 18px;
@@ -742,7 +746,7 @@ ul.footer_socials li:last-child {
 }
 
 ul.footer_socials li a {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: #ffffff;
     transition: 0.4s all ease-in;
 }

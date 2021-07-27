@@ -132,6 +132,7 @@
 
 @media screen and (max-width: 767px){
     .footer_nav {padding-left: 62px;}
+    .footer_nav li {float: none;}
 }
 
 @media screen and (max-width: 380px){
