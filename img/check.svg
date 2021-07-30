@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>check</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="05-Job-Details-Final" transform="translate(-253.000000, -1112.000000)" fill="#3B1F6F">
+            <g id="JOB-DETAILS" transform="translate(0.000000, 440.000000)">
+                <g id="jobblock-2" transform="translate(253.000000, 604.000000)">
+                    <g id="p---1" transform="translate(0.000000, 65.000000)">
+                        <g id="check" transform="translate(0.000000, 3.000000)">
+                            <circle id="Oval" fill-opacity="0.110617044" cx="10" cy="10" r="10"></circle>
+                            <polygon id="Path" fill-rule="nonzero" points="4 10.7022096 7.95728154 14.6670448 15.556 7.07583528 14.4650797 6 7.95728154 12.5002444 5.07581286 9.61879813"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -144,3 +144,122 @@
 
 
 
+/* ============= */
+/* =========== ABOUT US (inner) =========== */
+/* ============= */
+
+@media screen and (max-width: 1199px) {
+    .wwa_text_outermost {padding-top: 50px;}
+
+    .section_txt_holder {width: 96%;}
+    h4.exp_ttl {width: 90%;}
+
+    .jobs_list_holder {width: 97%;}
+
+    .job_details_text_area {width: 98%;}
+
+}
+
+@media screen and (max-width: 991px) {
+    .wwa_text_outermost {padding-left: 20px;}
+    .wwa_image_outermost {padding-top: 0;}
+
+    .circle_icon_holder {margin-bottom: 65px;}
+    h4.exp_ttl {width: 70%;}
+
+    .job_pills_holder {width: 55%;}
+
+    .h_banner_inner h3 {font-size: 2.6rem;}
+
+    .char_outermost {display: inline-block;}
+    .char_oval {float: none; margin-right: 0;}
+    .char_texts_holder h3 {text-align: center;}
+    .char_texts_holder h6 {text-align: center;}
+    .char_oval_icon_holder {display: flex; justify-content: center;}
+    .char_texts_holder {padding-left: 0;}
+}
+
+@media screen and (max-width: 767px){
+    .job_pills_holder {width: 70%; padding-left: 28px;}
+    .joblist {height: 250px;display: inline-block;}
+    .job_ttl {display: flex; justify-content: center; height: 70px;}
+    .job_location {display: flex; justify-content: center;}
+    .job_button_holder {
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 90%;
+        margin: 0 auto;
+        bottom: 18px;
+    }
+
+    .h_banner_inner h3 {font-size: 2rem;}
+    .h_banner_inner {width: 90%;}
+
+    .jobs_map_holder {width: 99%;}
+
+    .contact_details_holder {padding-top: 16px; margin-bottom: 46px;}
+    .contact_form_outermost {padding: 0;}
+    ul.contact_data {padding-left: 38px;}
+}
+
+@media screen and (max-width: 575px){
+    .job_characteristics_holder {margin-bottom: 60px;}
+    .char_outermost {margin-bottom: 36px;}
+
+    .contact_form_outermost {padding: 20px;}
+
+}
+
+@media screen and (max-width: 510px){
+    .wwa_image {height: 300px;}
+}
+
+@media screen and (max-width: 450px){
+    .job_pills_holder {width: 75%;}
+
+    .h_banner_inner h1 {font-size: 4rem;}
+
+    ul.contact_data li {font-size: 1.1rem;}
+}
+
+@media screen and (max-width: 400px){
+    .job_pills_holder {width: 95%;}
+
+    .h_banner_inner h1 {font-size: 3.7rem;}
+}
+
+@media screen and (max-width: 380px){
+    .wwa_image {height: 200px;}
+}
+
+@media screen and (max-width: 375px){
+    .h_banner_inner h1 {font-size: 3.3rem;}
+    .h_banner_inner h3 {font-size: 1.7rem;}
+
+}
+
+@media screen and (max-width: 335px){
+    .h_banner_inner h1 {font-size: 3rem;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

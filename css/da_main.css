@@ -301,6 +301,10 @@ h2.section_title {
     color: #262626;
 }
 
+h2.section_title.leftaligned {
+    text-align: left !important;
+}
+
 span.title_deco {
     display: inline-block;
     text-align: center;
@@ -769,6 +773,708 @@ ul.footer_socials li a:hover {
     color: #ffffff;
     text-align: center;
 }
+
+
+
+
+
+/* ============= */
+/* =========== ABOUT US (inner) =========== */
+/* ============= */
+
+.da_innerheader_area {
+    position: relative;
+    width: 100%;
+    min-height: 440px;
+    height: auto;
+}
+
+.inner_bgd_holder {
+    width: 100%;
+    height: 440px;
+}
+
+.inner_bgd_holder img {
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+}
+
+.inner_bgd_holder::after {
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.6);
+}
+
+.h_banner_inner {
+    display: block;
+    position: absolute;
+    width: 60%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 210px;
+    z-index: 2;
+}
+
+.h_banner_inner h1 {
+    font-family: 'GTSectraDisplay', serif;
+    font-weight: bold;
+    font-size: 4.4rem;
+    line-height: 1.1;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.who_we_are_area {
+    position: relative;
+    min-height: 680px;
+    height: auto;
+    width: 100%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background: #f8f8f8;
+}
+
+.wwa_image_outermost {
+    padding-top: 55px;
+}
+
+.wwa_image {
+    display: block;
+    width: 100%;
+    height: 410px;
+    padding: 0;
+    box-shadow: 0 11px 36px -16px rgba(0,0,0,0.50);
+    border-radius: 2px;
+}
+
+.wwa_text_outermost {
+    padding-left: 55px;
+    padding-top: 90px;
+}
+
+article.left_text {
+    text-align: left;
+}
+
+article.left_text p {
+    font-family: "Campton Book", sans-serif;
+    font-size: 1.143rem;
+    color: #262626;
+    margin-bottom: 22px;
+}
+
+.experience_area {
+    position: relative;
+    width: 100%;
+    min-height: 670px;
+    height: auto;
+    background: #fefefe;
+    padding-top: 75px;
+    padding-bottom: 55px;
+}
+
+.experience_circles_holder {
+    padding-top: 55px;
+}
+
+.circle_icon_holder {
+    display: inline-block;
+    text-align: center;
+}
+
+.exp_circle {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    background: #9B1C32;
+    border-radius: 100%;
+    margin-bottom: 26px;
+}
+
+img.exp_icon {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 68px;
+}
+
+h4.exp_ttl {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #666666;
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.all_jobs_main_area {
+    position: relative;
+    min-height: 870px;
+    height: auto;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background: #f8f8f8;
+}
+
+.pre_tabs_txt {
+    display: inherit;
+    text-align: center;
+}
+
+.pre_tabs_txt h5 {
+    font-family: "Campton Book", sans-serif;
+    font-size: 0.9rem;
+    display: inline-block;
+    text-align: center;
+    color: #666666;
+    text-transform: uppercase;
+}
+
+.job_pills_holder {
+    width: 35%;
+    margin: 0 auto;
+    padding-top: 22px;
+}
+
+.da_link.active {
+    background: #262626 !important;
+}
+
+.da_link {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    height: 48px;
+    background: #dbdbdb !important;
+    color: #ffffff !important;
+    border-radius: 2px !important;
+}
+
+.jobs_list_holder {
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 65px;
+}
+
+.joblist {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 120px;
+    background: #FFFFFF;
+    box-shadow: 0 24px 214px 0 rgba(0,0,0,0.08);
+    border-radius: 2px;
+    padding: 22px;
+    margin-bottom: 32px;
+}
+
+.job_ttl h5 {
+    font-size: 1.141rem;
+    font-weight: 600;
+    color: #262626;
+    text-align: left;
+    margin: 0;
+}
+
+.job_location h5 {
+    font-size: 1.141rem;
+    font-weight: 600;
+    color: #666666;
+    text-align: left;
+    margin: 0;
+}
+
+.job_location h5 i {
+    color: #9B1C32;
+    margin-right: 8px;
+}
+
+button.view_job_details_btn {
+    font-size: 0.89rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 100%;
+    height: 44px;
+    line-height: 2.9;
+    background-color: #9B1C32;
+    border-radius: 2px;
+    color: #ffffff;
+
+    transition: all 0.4s ease-in-out;
+}
+
+button.view_job_details_btn:hover {
+    background-color: #84192a;
+    color: #ffffff;
+}
+
+.jobs_map_holder {
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 65px;
+    margin-bottom: 75px;
+}
+
+.jobs_map {
+    overflow: hidden;
+}
+
+.da_map {
+    position: relative;
+    top: -46px;
+}
+
+.job_details_area {
+    position: relative;
+    min-height: 900px;
+    height: auto;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background: #fefefe;
+}
+
+.h_banner_inner h3 {
+    font-weight: bold;
+    font-size: 3.2rem;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.job_location_header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.job_location_header h5 {
+    font-size: 1.141rem;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: left;
+    margin: 0;
+}
+
+.job_location_header h5 i {
+    color: #9B1C32;
+    margin-right: 8px;
+}
+
+h3.subsection_title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #999999;
+}
+
+.job_details_text_area {
+    position: relative;
+    width: 75%;
+    margin: 0 auto;
+}
+
+article.job_information_txt {
+    padding-top: 32px;
+    text-align: center;
+}
+
+article.job_information_txt p {
+    font-family: "Campton Book", sans-serif;
+    font-size: 1.143rem;
+    color: #262626;
+    margin-bottom: 22px;
+}
+
+.job_characteristics_holder {
+    padding-top: 24px;
+    margin-bottom: 150px;
+}
+
+.char_outermost {
+    display: flex;
+    justify-content: center;
+}
+
+.char_oval {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-right: 12px;
+    border-radius: 100%;
+    background: rgba(59,31,111,0.09);
+}
+
+img.char_icon {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.char_texts_holder {
+    padding-left: 6px;
+    padding-top: 16px;
+}
+
+.char_texts_holder h3 {
+    font-size: 1.143rem;
+    font-weight: bold;
+    text-align: left;
+    color: #666666;
+    text-transform: uppercase;
+}
+
+.char_texts_holder h6 {
+    font-family: "Campton Book", sans-serif;
+    font-size: 1.1rem;
+    text-align: left;
+    color: #666666;
+}
+
+ul.job_details_list {
+    padding-top: 36px;
+    padding-left: 42px;
+    margin-bottom: 125px;
+}
+
+ul.job_details_list li {
+    list-style-type: none;
+    font-family: "Campton Book", sans-serif;
+    font-size: 1.143rem;
+    line-height: 1.5;
+    color: #262626;
+    margin-bottom: 26px;
+    text-indent: -35px;
+}
+
+span.jobcheck {
+    position: relative;
+    top: 4px;
+    margin-right: 10px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../img/check.svg") no-repeat;
+    background-size: contain;
+}
+
+.single_job_location_holder {
+    padding-top: 42px;
+    margin-bottom: 120px;
+}
+
+.job_application_form_holder {
+    padding-top: 42px;
+}
+
+form.da_application_form {
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    height: 570px;
+    background: #FFFFFF;
+    box-shadow: 0 24px 214px 0 rgba(0,0,0,0.08);
+    border-radius: 8px;
+    padding: 12px 36px 22px 36px;
+}
+
+input.da_input {
+    font-family: "Campton Book", sans-serif;
+    height: 45px;
+    width: 100%;
+    padding-left: 12px;
+    line-height: 24px;
+    font-size: 0.98rem;
+    font-weight: 400;
+    color: #666666 !important;
+    box-shadow: none !important;
+    -webkit-appearance: none !important;
+    border-radius: 4px;
+    background: #FBFBFB;
+    border: 1px solid #D8D8D8;
+}
+
+input.da_input:focus {
+    color: #666666 !important;
+    box-shadow: none !important;
+    -webkit-appearance: none !important;
+    background: #FBFBFB;
+    border: 1px solid #D8D8D8;
+    border-radius: 4px;
+}
+
+textarea.da_txtarea {
+    height: 142px;
+    width: 100%;
+    resize: none;
+    padding-left: 12px;
+    padding-top: 12px;
+    line-height: 24px;
+    font-size: 1rem;
+    color: #666666 !important;
+    box-shadow: none !important;
+    -webkit-appearance: none !important;
+    background: #FBFBFB;
+    border: 1px solid #D8D8D8;
+    border-radius: 4px;
+}
+
+textarea.da_txtarea:focus {
+    color: #666666 !important;
+    box-shadow: none !important;
+    -webkit-appearance: none !important;
+    background: #FBFBFB;
+    border: 1px solid #D8D8D8;
+    border-radius: 4px;
+}
+
+.submit_btn_holder {
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+}
+
+.attach_btn_holder {
+    display: flex;
+    justify-content: center;
+    padding-top: 22px;
+}
+
+button.send_btn {
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 2.8;
+    width: 165px;
+    height: 48px;
+    background-color: #262626;
+    border-radius: 2px;
+    color: #ffffff;
+
+    transition: all 0.4s ease-in-out;
+}
+
+button.send_btn:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.attach_button_and_text_holder {
+    margin-bottom: 24px;
+    clear: both;
+}
+
+.upload_btn_wrapper {
+    position: relative;
+    /* overflow: hidden; */
+    display: inline-block;
+    margin-bottom: 10px;
+    float: left;
+    margin-right: 12px;
+}
+
+.upload_btn {
+    position: relative;
+    top: 7px;
+    color: #9B1C32;
+    border: 1px solid #9B1C32;
+    background-color: rgba(155, 28, 50, 0.05);
+    border-radius: 100px;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer !important;
+    z-index: 0;
+
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.upload_btn > i {
+    font-size: 1.3rem;
+    color: #9B1C32;
+}
+
+.upload_btn_wrapper input[type=file] {
+    font-size: 23px;
+    position: absolute;
+    /*z-index: -1;*/
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.attach_text_holder {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.attach_text_holder p {
+    font-size: 1rem;
+    text-align: left;
+    color: #666666;
+    margin-bottom: 0;
+}
+
+.attach_text_holder p span {
+    color: #9B1C32;
+}
+
+.attach_reqs {
+    text-align: center;
+    margin-bottom: 38px;
+}
+
+.upload_btn.selected {
+    position: relative;
+    top: 7px;
+    color: #3B1F6F;
+    border: 1px solid #3B1F6F;
+    background-color: rgba(59, 31, 111, 0.05);
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.upload_btn.selected > i {
+    font-size: 1.3rem;
+    color: #84BF41;
+}
+
+.wpcf7-not-valid-tip {
+    position: relative;
+    top: -20px;
+}
+
+.files-container .wpcf7-not-valid-tip {
+    position: absolute;
+    top: -44px;
+    display: block;
+    font-size: 0.7rem;
+    width: 145px;
+    z-index: 10000;
+    left: 62px;
+}
+
+.files-container .upload_btn_wrapper input[type="file"] {
+    font-size: 0;
+}
+
+.contact_area {
+    position: relative;
+    min-height: 750px;
+    height: auto;
+    background: #f8f8f8;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.contact_details_holder {
+    padding-top: 36px;
+}
+
+ul.contact_data {
+    padding-left: 32px;
+}
+
+ul.contact_data li {
+    font-family: "Campton Book", sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #666666;
+    text-align: left;
+    list-style-type: none;
+    margin-bottom: 22px;
+    text-indent: -18px;
+}
+
+ul.contact_data li > i {
+    color: #9B1C32;
+    margin-right: 12px;
+}
+
+.contact_form_outermost {
+    padding-left: 32px;
+}
+
+form.da_contact_form {
+    position: relative;
+    height: 550px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0 24px 214px 0 rgba(0,0,0,0.08);
+    border-radius: 8px;
+    padding: 0 24px 32px 24px;
+}
+
+.topmost_stripe {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+    height: 55px;
+    background: #9B1C32;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.topmost_stripe h4 {
+    font-family: GTSectraDisplay, serif;
+    font-weight: bold;
+    font-size: 1.55rem;
+    color: #ffffff;
+    margin: 0;
+}
+
+.form_innerbox {
+    padding-top: 60px;
+}
+
+.contact_submit_btn_holder {
+    display: flex;
+    justify-content: center;
+    padding-top: 26px;
+}
+
 
 
 

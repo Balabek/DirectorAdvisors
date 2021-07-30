@@ -55,15 +55,15 @@ $(document).ready(function() {
     $(navbarlinx).on('click', function(){
         $('.navbar-collapse').collapse('hide');
         $('.animated-icon1').toggleClass('open');
-        $('.da_header_area').toggleClass('dimmer');
+        $('.da_header_area,.da_innerheader_area').toggleClass('dimmer');
     });
     if ((screen.width > 991)) {
         $(navbarlinx).on('click', function(){
-            $('.da_header_area').removeClass('dimmer');
+            $('.da_header_area, .da_innerheader_area').removeClass('dimmer');
         });
     }
     $('.navbar-toggler').on('click', function(){
-        $('.da_header_area').toggleClass('dimmer');
+        $('.da_header_area, .da_innerheader_area').toggleClass('dimmer');
     });
 
 
@@ -72,6 +72,8 @@ $(document).ready(function() {
     $('.da_nav_toggler').on('click', function(){
         $('.animated-icon1').toggleClass('open');
     });
+
+
 
 });
 
