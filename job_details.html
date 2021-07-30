@@ -265,14 +265,20 @@
             <h3 class="subsection_title">Apply Now</h3>
           </div>
           <div class="job_application_form_holder">
-            <form id="jobApplicationForm" class="da_application_form" role="form">
+            <form id="jobApplicationForm" class="da_application_form needs-validation" role="form" novalidate>
               <div class="form-group da_form_group">
                 <label class="da_label" for="Name"></label>
-                <input type="text" class="form-control da_input" id="Name" placeholder="Name" onfocus="placeholder='' " onblur="placeholder='Name' ">
+                <input type="text" class="form-control da_input" id="Name" placeholder="Name" onfocus="placeholder='' " onblur="placeholder='Name' " required>
+                <div class="invalid-feedback">
+                  This field is required.
+                </div>
               </div>
               <div class="form-group da_form_group">
                 <label class="da_label" for="Email"></label>
-                <input type="text" class="form-control da_input" id="Email" placeholder="Email" onfocus="placeholder='' " onblur="placeholder='Email' ">
+                <input type="text" class="form-control da_input" id="Email" placeholder="Email" onfocus="placeholder='' " onblur="placeholder='Email' " required>
+                <div class="invalid-feedback">
+                  This field is required.
+                </div>
               </div>
               <div class="form-group da_form_group">
                 <label class="da_label" for="Phone"></label>
@@ -288,7 +294,7 @@
                     <button class="upload_btn">
                       <i class="fas fa-plus"></i>
                     </button>
-                    <input class="maskedInput" type="file" name="myfile" />
+                    <input class="maskedInput" type="file" name="myfile"/>
                   </div>
                   <div class="attach_text_holder">
                     <p>Attach Resume (<span>required</span>)</p>

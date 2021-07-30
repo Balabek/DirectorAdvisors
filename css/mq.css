@@ -201,6 +201,8 @@
     .contact_details_holder {padding-top: 16px; margin-bottom: 46px;}
     .contact_form_outermost {padding: 0;}
     ul.contact_data {padding-left: 38px;}
+
+    .circle_icon_holder {padding-left: 26px;}
 }
 
 @media screen and (max-width: 575px){

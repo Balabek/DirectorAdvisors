@@ -107,26 +107,35 @@
         </div> <!-- Map Outermost END -->
 
         <div class="col-md-6 col-sm-12 contact_form_outermost">
-          <form id="daContactForm" class="da_contact_form" role="form">
+          <form id="daContactForm" class="da_contact_form needs-validation" role="form" novalidate>
             <div class="topmost_stripe">
               <h4>Get In Touch</h4>
             </div>
             <div class="form_innerbox">
               <div class="form-group da_form_group">
                 <label class="da_label" for="Name"></label>
-                <input type="text" class="form-control da_input" id="Name" placeholder="Name" onfocus="placeholder='' " onblur="placeholder='Name' ">
+                <input type="text" autocomplete="off" class="form-control da_input" id="Name" placeholder="Name" onfocus="placeholder='' " onblur="placeholder='Name' " required>
+                <div class="invalid-feedback">
+                  This field is required.
+                </div>
               </div>
               <div class="form-group da_form_group">
                 <label class="da_label" for="Email"></label>
-                <input type="text" class="form-control da_input" id="Email" placeholder="Email" onfocus="placeholder='' " onblur="placeholder='Email' ">
+                <input type="text" autocomplete="off" class="form-control da_input" id="Email" placeholder="Email" onfocus="placeholder='' " onblur="placeholder='Email' " required>
+                <div class="invalid-feedback">
+                  This field is required.
+                </div>
               </div>
               <div class="form-group da_form_group">
                 <label class="da_label" for="Subject"></label>
-                <input type="text" class="form-control da_input" id="Subject" placeholder="Subject" onfocus="placeholder='' " onblur="placeholder='Subject' ">
+                <input type="text" autocomplete="off" class="form-control da_input" id="Subject" placeholder="Subject" onfocus="placeholder='' " onblur="placeholder='Subject' ">
               </div>
               <div class="form-group da_form_group">
                 <label class="da_label" for="Message"></label>
-                <textarea class="form-control da_txtarea" id="Message" placeholder="Message" onfocus="placeholder='' " onblur="placeholder='Message' "></textarea>
+                <textarea class="form-control da_txtarea" id="Message" placeholder="Message" onfocus="placeholder='' " onblur="placeholder='Message' " required></textarea>
+                <div class="invalid-feedback">
+                  This field is required.
+                </div>
               </div>
               <div class="form-group da_form_group contact_submit_btn_holder">
                 <button type="submit" class="btn send_btn">Send</button>
