@@ -73,7 +73,7 @@ $(document).ready(function() {
         $('.animated-icon1').toggleClass('open');
     });
 
-    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    // Disabling form submissions if there are invalid fields
     (function () {
         'use strict'
 
@@ -95,12 +95,10 @@ $(document).ready(function() {
     })()
 
 
+    // Sent message notification toast (correct button class is '.send_btn')
     $('.send_btn').click(function() {
         $('.toast').toast('show')
     });
-
-
-
 
 
 });

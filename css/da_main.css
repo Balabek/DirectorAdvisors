@@ -1501,12 +1501,14 @@ form.da_contact_form {
     display: flex;
     justify-content: center;
     align-items: center;
+    align-self: center;
     position: absolute;
-    right: 10px;
-    bottom: -20px;
-    height: 70px;
+    right: 0;
+    left: 0;
+    bottom: 4px !important;
+    height: 65px;
     z-index: 30;
-    background: rgba(59, 31, 111, 0.85) !important;
+    background: rgba(59, 31, 111, 0.92) !important;
     color: #fefefe;
     font-size: 1rem;
     font-family: "Campton Book", sans-serif;
