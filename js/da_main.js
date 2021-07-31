@@ -95,6 +95,13 @@ $(document).ready(function() {
     })()
 
 
+    $('.send_btn').click(function() {
+        $('.toast').toast('show')
+    });
+
+
+
+
 
 });
 

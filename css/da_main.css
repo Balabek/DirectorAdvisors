@@ -1497,6 +1497,23 @@ form.da_contact_form {
     border-color: #D8D8D8;
 }
 
+.da_toast_confirm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    bottom: -20px;
+    height: 70px;
+    z-index: 30;
+    background: rgba(59, 31, 111, 0.85) !important;
+    color: #fefefe;
+    font-size: 1rem;
+    font-family: "Campton Book", sans-serif;
+}
+
+
+
 
 
 

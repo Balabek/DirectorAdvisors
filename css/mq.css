@@ -238,7 +238,10 @@
 @media screen and (max-width: 375px){
     .h_banner_inner h1 {font-size: 3.3rem;}
     .h_banner_inner h3 {font-size: 1.7rem;}
+}
 
+@media screen and (max-width: 365px){
+    .da_toast_confirm {width: 90%;}
 }
 
 @media screen and (max-width: 335px){
